@@ -20,7 +20,7 @@ function Top() {
         {
             cryptoArr.map((cryptoAr)=>{
                 return(
-                    <div className='coin-container'>
+                    <div className='coin-container' key={cryptoAr.id}>
                     <p className='rank-para'>Rank {cryptoAr.rank}</p>
                     <h3 className='coin-symbol'>{cryptoAr.name} {cryptoAr.symbol}</h3>
                     <p className='price-para'>Price: {cryptoAr.price_usd}</p>
