@@ -13,9 +13,9 @@ const App = () => {
       <Navbar />
       <div className='container'>
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/top-10' element={<Top/>}/>
-          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/' element={<Home/>} ></Route>
+          <Route path='/top-10' element={<Top/>} ></Route>
+          <Route path='/contact' element={<Contact/>} ></Route>
         </Routes>
       </div>
     </div>
